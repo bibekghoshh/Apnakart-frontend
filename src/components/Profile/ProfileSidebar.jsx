@@ -76,7 +76,7 @@ const ProfileSidebar = ({ setActive, active }) => {
         className="flex items-center cursor-pointer w-full mb-8"
         onClick={() => setActive(4)}
       >
-        <MdOutlineTrackChanges size={20} color={active === 5 ? "red" : ""} />
+        <MdOutlineTrackChanges size={20} color={active === 4 ? "red" : ""} />
         <span
           className={`pl-3 ${
             active === 4 ? "text-[red]" : ""
@@ -90,7 +90,7 @@ const ProfileSidebar = ({ setActive, active }) => {
         className="flex items-center cursor-pointer w-full mb-8"
         onClick={() => setActive(5)}
       >
-        <RiLockPasswordLine size={20} color={active === 6 ? "red" : ""} />
+        <RiLockPasswordLine size={20} color={active === 5 ? "red" : ""} />
         <span
           className={`pl-3 ${
             active === 5 ? "text-[red]" : ""
@@ -104,7 +104,7 @@ const ProfileSidebar = ({ setActive, active }) => {
         className="flex items-center cursor-pointer w-full mb-8"
         onClick={() => setActive(6)}
       >
-        <TbAddressBook size={20} color={active === 7 ? "red" : ""} />
+        <TbAddressBook size={20} color={active === 6 ? "red" : ""} />
         <span
           className={`pl-3 ${
             active === 6 ? "text-[red]" : ""
@@ -122,7 +122,7 @@ const ProfileSidebar = ({ setActive, active }) => {
           >
             <MdOutlineAdminPanelSettings
               size={20}
-              color={active === 6 ? "red" : ""}
+              color={active === 7 ? "red" : ""}
             />
             <span
               className={`pl-3 ${
@@ -138,10 +138,10 @@ const ProfileSidebar = ({ setActive, active }) => {
         className="single_item flex items-center cursor-pointer w-full mb-8"
         onClick={logoutHandler}
       >
-        <AiOutlineLogin size={20} color={active === 7 ? "red" : ""} />
+        <AiOutlineLogin size={20} color={active === 8 ? "red" : ""} />
         <span
           className={`pl-3 ${
-            active === 7 ? "text-[red]" : ""
+            active === 8 ? "text-[red]" : ""
           } 800px:block hidden`}
         >
           Log out

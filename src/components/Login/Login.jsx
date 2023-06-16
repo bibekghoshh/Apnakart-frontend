@@ -5,15 +5,19 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { server } from "../../server";
 import { toast } from "react-toastify";
+import Loader from "../Layout/Loader";
 
 const Login = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [visible, setVisible] = useState(false);
+  const [isLoading,setIsLoading]=useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    setIsLoading(true);
 
     await axios
       .post(
@@ -134,6 +138,7 @@ const Login = () => {
               </Link>
             </div>
           </form>
+          {isLoading && <Loader/>}
         </div>
       </div>
     </div>

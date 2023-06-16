@@ -38,13 +38,13 @@ const Footer = () => {
         <ul className="px-5 text-center sm:text-start flex sm:block flex-col items-center">
         <Link to="/">
           <img className="w-44"
-            src="https://scontent.fluh1-1.fna.fbcdn.net/v/t39.30808-6/346962965_6133872466648799_3696969851896329371_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=uiiPWnJiKXcAX-bP5Yl&_nc_ht=scontent.fluh1-1.fna&oh=00_AfCaONx2YLhzXrvdrQGJDXAdtuqr66N6I3Rp8wqzWbnz5Q&oe=646650C4"
-            alt="logo"
+            src="https://scontent.fccu5-1.fna.fbcdn.net/v/t39.30808-6/346962965_6133872466648799_3696969851896329371_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=NvjJZLU5HCEAX_oaVf7&_nc_ht=scontent.fccu5-1.fna&oh=00_AfCFWz-HvLxCfL1qD_7Hwy4A73IvozQWGmafYBj6n18Jhg&oe=648FD804"
+            alt="company logo"
             style={{ filter: "brightness(1) invert(1)" }}
           />
           </Link>
           <br />
-          <p>The home and elements needeed to create beatiful products.</p>
+          <p>The home and elements needed to create beatiful products.</p>
           <div className="flex items-center mt-[15px]">
             <AiFillFacebook size={25} className="cursor-pointer" />
             <AiOutlineTwitter

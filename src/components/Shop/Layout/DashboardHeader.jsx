@@ -14,8 +14,8 @@ const DashboardHeader = () => {
       <div>
         <Link to="/">
           <img className="w-60"
-            src="https://scontent.fluh1-1.fna.fbcdn.net/v/t39.30808-6/346962965_6133872466648799_3696969851896329371_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=uiiPWnJiKXcAX-bP5Yl&_nc_ht=scontent.fluh1-1.fna&oh=00_AfCaONx2YLhzXrvdrQGJDXAdtuqr66N6I3Rp8wqzWbnz5Q&oe=646650C4"
-            alt=""
+            src="https://scontent.fccu5-1.fna.fbcdn.net/v/t39.30808-6/346962965_6133872466648799_3696969851896329371_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=NvjJZLU5HCEAX_oaVf7&_nc_ht=scontent.fccu5-1.fna&oh=00_AfCFWz-HvLxCfL1qD_7Hwy4A73IvozQWGmafYBj6n18Jhg&oe=648FD804"
+            alt="compnay logo"
           />
         </Link>
       </div>
